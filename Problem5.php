@@ -1,7 +1,13 @@
 <?php
 
 class Vehicle{
-  public static $doors = 4;
+  public static $seats = 4;
+}
+
+class Bus extends Vehicle{
+}
+
+class Car extends Vehicle{
 }
 
 ?>
